@@ -14,7 +14,6 @@ body{
     font-size: 25px;
 }
 .box1{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,8 +51,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    gap: 20px;
+    gap: 200px;
+    padding-bottom: 10px;
 }
 .mybutton{
     font-size: 40px;
@@ -97,4 +96,10 @@ body{
 .scoreDisplay{
     font-size: 2rem;
     text-align: center;
+}
+.scoreBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
 }
