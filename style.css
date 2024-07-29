@@ -1,0 +1,100 @@
+*{
+    margin-top:10px;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.box1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.modebtn{
+    margin-top: -10px;
+    background-color: rgb(6, 6, 6);
+    color: white;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.modebtn:hover{
+    border-radius: 30px;
+    scale:110%;
+    box-shadow: 4px 4px 8px black;
+}
+.container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+   
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.mybutton{
+    font-size: 40px;
+    border-width: 0px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    backdrop-filter:blur(50);
+    background-color: rgb(0, 170, 255);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.mybutton:hover{
+    border-radius: 30%;
+    background-color: blue;
+    scale:110%;
+    box-shadow: 5px 5px 10px rgb(115, 115, 115);
+    border-width: 15px;
+    border-color: rgb(255, 255, 255);
+
+}
+.mybutton:active{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 6px rgb(118, 118, 118);
+}
+#playerDisplay,#computerDisplay{
+    font-size: 1.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#resultDisplay{
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.greenText,#playerScoreDisplay{
+    color:lime;
+}
+.redText,#computerScoreDisplay{
+    color: red;
+}
+.scoreDisplay{
+    font-size: 2rem;
+    text-align: center;
+}
