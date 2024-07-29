@@ -10,28 +10,38 @@
     <section>
         <div >
             <div class="box1">
-                <h1>ROCK - PAPER - SCISSORS</h1>
+                <h1 style="text-align: center;">ROCK - PAPER - SCISSORS</h1>
                 <button class="modebtn" id="mode">🌙 Dark Mode</button>
             </div>
             
-            <div class="container">
-                <button class="mybutton" id="btn" onclick="playGame('rock')">✊</button>
+            <div >
+                <div style="margin-top: 60px;"> <h1 style="text-align: center;">SELECT YOUR OPTION : </h1></div>
+                <div class="container">
+                    <button class="mybutton" id="btn" onclick="playGame('rock')">✊</button>
                 <button class="mybutton" id="btn" onclick="playGame('paper')">🖐️</button>
                 <button class="mybutton" id="btn" onclick="playGame('scissors')">✌️</button>
+                </div>
+                
             </div>
             <div class="sec">
                 <div id="playerDisplay">PLAYER:</div>
                 <div id="computerDisplay">COMPUTER: </div>
+            </div>
+            <div class="sec">
                 <div id="resultDisplay">IT's A TIE</div>
             </div>
-            <div class="scoreDisplay">Player Score:
-                <span id="playerScoreDisplay">0</span>
+            <div class="scoreBox">
+                <div class="scoreDisplay">Player Score:
+                    <span id="playerScoreDisplay">0</span>
+                </div>
+                <div class="scoreDisplay">Computer Score:
+                    <span id="computerScoreDisplay">0</span>
+                </div>
             </div>
-            <div class="scoreDisplay">Computer Score:
-                <span id="computerScoreDisplay">0</span>
-            </div>
+            
 
         </div>
+        <marquee behavior="" scrollamount= "10"direction="left" style="color: rgb(9, 255, 0);font-size: 15px;">YOU CAN GIVE YOUR FEEDBACK HERE <a href="https://www.linkedin.com/in/ishu-anand-malviya-435440258/overlay/contact-info/"><span style="color:rgb(255, 0, 0);text-decoration: none;"> CLICK HERE</span></a></marquee>
     </section>
     
     <script src="script.js"></script>
