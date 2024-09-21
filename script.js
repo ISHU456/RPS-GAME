@@ -68,4 +68,11 @@ function playGame(playerChoice){
             break;
     }
 
+    if playerScore ==5{
+        document.write("YOU WIN");
+    }
+    else{
+        document.write("YOU LOSE");
+    }
+
 }
